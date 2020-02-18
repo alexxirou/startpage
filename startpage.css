@@ -1,0 +1,118 @@
+body {
+    margin: 0 3em;
+    background-color: rgb(35, 35, 60);
+    color: white;
+    font-family: "Ubuntu Mono", sans-serif;
+}
+
+
+
+
+#google {
+    display:block;
+    text-align: center;
+    padding-top: 3%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+
+}
+
+#google input{
+    position: relative;
+    width: 60%;
+    box-sizing:border-box;
+}
+
+.Buttons{
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content:center;
+
+
+
+}
+.btn{
+    height:2.0em;
+    background-color: black;
+    color: deepskyblue;
+    border: lightblue 1px solid;
+    border-radius: 4px;
+    cursor:progress;
+    padding-top: 4px;
+    vertical-align: bottom;
+}
+.btn:hover{
+    background-color: deepskyblue;
+    color: black;
+}
+
+.nav-link {
+  font-size: 23px;
+  color: white;
+}
+
+
+.bg-dark {
+  background-color: rgb(35, 35, 60)!important;
+  justify-content: center;
+}
+
+.bar{
+  margin-bottom: 15px;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse:separate;
+  border-spacing: 10px;
+
+
+}
+
+.container2 {
+  margin-top: 2%;
+}
+
+
+
+#viewContent {
+  padding-left: 10px;
+}
+
+#viewContent select{
+  font-size: 1.2em;
+  padding: 0.3em;
+}
+
+#viewContent button {
+  font-size: 1.2em;
+}
+
+
+#viewContent .textAlignCenter {
+  text-align: center;
+}
+
+
+#viewContent #message {
+  text-align: left;
+}
+
+#Option{
+      height:2.0em;
+      background-color: black;
+      color: deepskyblue;
+      border: lightblue 1px solid;
+      border-radius: 4px;
+      cursor:progress;
+      padding-top: 4px;
+      vertical-align: bottom;
+  }
+#Option:hover{
+      background-color: deepskyblue;
+      color: black;
+  }
